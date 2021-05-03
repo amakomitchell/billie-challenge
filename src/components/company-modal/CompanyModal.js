@@ -66,6 +66,7 @@ export function CompanyModal({ company, onModalClose }) {
             </div>
           </div>
 
+          {/* show company name and budget on desktop */}
           <div className="mb-4">Company Budget</div>
           <div>
             <input
