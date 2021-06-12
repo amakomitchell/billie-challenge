@@ -2,11 +2,12 @@ import React from "react";
 import { Counter } from "./features/counter/Counter";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import "./App.css";
 import SideNav from "./components/side-nav/SideNav";
 import Home from "./components/pages/Home";
 import Integrations from "./components/pages/Integration";
 import Companies from "./components/companies/Companies";
+
+import "./App.css";
 
 function App() {
   return (

@@ -46,10 +46,6 @@ export function Companies() {
                 onClick={(_company) => dispatch(setSelectedCompany(_company))}
               />
             ))}
-
-            {/* <div className="flex flex-row px-2 py-8 justify-between space-x-4">
-              Table Data
-            </div> */}
           </div>
         </div>
       </div>
