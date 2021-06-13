@@ -16,9 +16,6 @@ export function Companies() {
   const dispatch = useDispatch();
   const notify = () => toast("Budget successfully updates!");
 
-  console.log(companies);
-  console.log("selectSelectedCompany: ", selectSelectedCompany);
-
   return (
     <React.Fragment>
       <div className="flex flex-col w-full">
